@@ -1,0 +1,224 @@
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background-color: lightgrey;
+
+
+}
+
+.continer {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* header */
+header {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    color: grey;
+    padding-top: 30px;
+    min-height: 50px;
+    border-bottom: lightgreen 2px solid;
+    text-transform: uppercase}
+
+
+header nav{
+    float: right;
+    margin-top: 5pxS;
+}
+
+header ul{
+    margin: 0%;
+    padding: 0%;
+}
+
+    
+header li{
+    display: inline;
+        padding: 10px 40px 0% 20px;}
+
+ 
+
+    main{
+        font-size: small;
+        margin-top: -30px;
+       padding-bottom: 5px;
+        
+        
+    }
+    main :hover{
+        background-color:lightgreen;
+        color: white;
+        margin-top: 15px;
+        padding-top: 5px;
+        transition: background 0.5s ease-in-out;
+        
+    }
+    
+    #showcase{
+        min-height: 600px;
+        background: url(sorces/s/photo\(1\).jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -25px;
+    }
+.boxes{
+    margin-left: 40px;
+}
+.box{
+    width: 20%;
+    background: white;
+    text-align: center;
+    padding: 1% 1%;
+    box-shadow: white;
+    float: left;
+   
+    
+}
+.box :hover{
+    background: lightgreen;
+    color: black;
+    transition: background 0.7s ease-in-out;
+    
+}
+    
+footer{
+    width: 90%;
+    height: 10%;
+    background: grey;
+    text-align: center;
+    color: #fff;
+    margin-top: 5px;
+    padding:  2px;
+    margin: auto;
+    padding-bottom: 3px;
+   
+
+
+}
+dd{
+    font-size: 1.8rem;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+dd :hover{
+    background: greenyellow;
+    color: black;
+}
+footer :hover{
+   
+    color: green;
+transition: background 0.7s ease-in-out}
+footer span{
+    font-size: 6rem;
+text-transform: uppercase;
+}
+
+/* portifolio page */
+aside{
+    width: 40%;
+    height: 30%;
+    float: right;
+    background: lightblue;
+}
+article{
+    width: 50%;
+    height: 30%;
+    background: white;
+    float:left
+}
+
+aside,article{
+    margin-top: 80px;
+    border: black 3px solid;
+}
+img{
+    width: 30%;
+    margin: 1.3%;
+    border: lightgreen 2px solid;
+   display: inline;
+
+}
+    
+
+
+.abooutus{
+    width: 60%;
+    float: left;
+    background: lightblue;
+
+    margin-top: 18px;
+    text-align: center;
+    border: black 3px solid;
+    padding: 9px 9px;
+    padding-bottom: 3px;}
+    
+.aboutus1{
+    width: 60%;
+   
+    background: white;
+
+    margin-top: 18px;
+    text-align: center;
+    border: black 3px solid;
+    padding: 9px 9px;
+    padding-bottom: 3px;
+float: right;
+margin-bottom: 40px;
+}
+.ragister{
+    border-top:  solid 10px black;
+    margin-bottom: 40px;
+    
+}
+
+.form{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+form{
+    float: left;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+input{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    display: block;
+    margin-bottom: 10px;
+
+}
+.submit{
+    height: 25px;
+    width: 60px;
+    background: lightgreen;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+}
+.submit:hover{
+    background: #fff;
+    color: lightgreen;
+}
+.nalasooxiriir{
+    width: 50%;
+    float:right;
+    text-align: center;
+    background: lightgreen;
+    margin-right: 30px;
+    border: 6px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
+}
+.info{
+   display: block;
+   text-align: center;
+   margin-left: 100px;
+
+}
